@@ -1,3 +1,5 @@
+// Apparition de la nav en Desktop mode
+
 const navMenu  = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
       navClose = document.getElementById('nav-close')
@@ -13,6 +15,8 @@ if(navClose){
     navMenu.classList.remove('show-menu')
   })
 }
+
+// Apparition du contenu au scroll
 
 const sr = ScrollReveal({
   origin: 'top',
