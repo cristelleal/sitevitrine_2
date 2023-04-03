@@ -1,4 +1,5 @@
-@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto+Mono:wght@200&display=swap);
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;200;300&display=swap');
+
 
 :root{
   --font-primary: 'Roboto Mono', monospace;
@@ -62,9 +63,11 @@ a{
   align-items: center;
 }
 
-.nav-logo{
-  font-size: 1.25rem;
-  color: var(--text-color);
+
+.nav-logo img {
+  width: 10%;
+  margin: 0;
+  opacity: 25%;
 }
 
 .nav-toggle{
@@ -301,10 +304,16 @@ a{
   width: 100%;
   height: auto;
   opacity: 0.8;
+  -webkit-filter: grayscale(50%); 
+  filter: grayscale(50%); 
+  -webkit-transition:all 0.3s;
+  transition:all 0.3s;
 }
 
 .box-featured-projects .project img:hover {
   opacity: 99;
+  -webkit-filter: grayscale(0%); 
+  filter: grayscale(0%); 
 }
 
 .head-project{
@@ -394,7 +403,7 @@ footer .box-contact{
   border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
 }
 
-.contact-google-maps{
+.contact-resume{
   border: 2px solid;
   border-image-source: linear-gradient(132.33deg, #545354 -0.67%, #b0afb0 102.54%);
 }
@@ -415,6 +424,15 @@ footer .box-contact{
 .ionicons-contact {
   width: 100%;
 }
+
+.copyright {
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 13px;
+  color: #0000006f;
+}
+
+/* MEDIA QUERIES - DESKTOP */
 
 @media screen and (min-width: 767px) {
   /* Base */
@@ -441,6 +459,35 @@ footer .box-contact{
 
   .nav-menu{
     margin-left: auto;
+  }
+
+  .nav-logo img {
+    width: 5%;
+    margin: 0;
+    opacity: 25%;
+    transition: all .3s ease-out;
+  }
+  
+  .nav-logo img:hover {
+    width: 7%;
+    opacity: 50%;
+  }
+
+  .nav .nav-menu ul li a::before {
+    content: "";
+    position: absolute;
+    width: 8%;
+    height: 1px;
+    background-color: #3333336c;
+    bottom: 0;
+    transform-origin: 100% 0;
+    transform: scaleX(0);
+    transition: transform 0.4s;
+  }
+  
+  .nav .nav-menu ul li a:hover::before {
+    transform-origin: 0 0;
+    transform: scaleX(1);
   }
 
   /* Hero */
@@ -538,8 +585,8 @@ footer .box-contact{
 
 
   .box-contact .contact:hover p{
-    font-size: 1.2rem;
     color: #000000;
+    filter: blur(0.05rem);
   }
 
 }

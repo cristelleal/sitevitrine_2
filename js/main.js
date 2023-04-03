@@ -24,3 +24,5 @@ const sr = ScrollReveal({
 sr.reveal(`.hero .container-medium`)
 sr.reveal(`.experience .container-medium`, {delay:500})
 sr.reveal(`.project, .contact`, {interval: 100})
+
+
