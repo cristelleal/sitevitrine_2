@@ -1,4 +1,3 @@
 # Portfolio 🏠 
 
-Stack : HTML, CSS, JavaScript (pas de framework)
-
+Stack : HTML, CSS, JavaScript 
