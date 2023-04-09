@@ -6,4 +6,4 @@ Minimalist webdesign - light theme 🔆
 <br> 
 Stack : HTML, CSS, JavaScript (+ scrollreveal library).
 <br><br>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/93875a37-609e-4c6b-a498-f158ad81e9dd/deploy-status)](https://app.netlify.com/sites/minimalistportfolio-ca/deploys)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f11f0a63-2dcf-47c1-b450-303130ba2813/deploy-status)](https://app.netlify.com/sites/minimalist-portfolio-ca/deploys)
