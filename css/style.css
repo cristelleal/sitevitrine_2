@@ -268,18 +268,7 @@ a{
 
 .box-featured-projects .project img{
   width: 100%;
-  height: auto;
-  opacity: 0.8;
-  -webkit-filter: grayscale(50%); 
-  filter: grayscale(50%); 
-  -webkit-transition:all 0.3s;
-  transition:all 0.3s;
-}
-
-.box-featured-projects .project img:hover {
-  opacity: 99;
-  -webkit-filter: grayscale(0%); 
-  filter: grayscale(0%); 
+  height: auto; 
 }
 
 .head-project{
@@ -308,14 +297,6 @@ a{
 
 .box-featured-projects .project .p-tech{
   color: #000000;
-}
-
-.imglight {
-  opacity: 0.8;
-}
-
-.imglight:hover {
-  opacity: 99;
 }
 
 /* Footer */
