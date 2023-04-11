@@ -530,7 +530,7 @@ footer .box-contact{
   }
 
   .box-contact .contact p{
-    transition: all .3s ease-in-out;
+    transition: all .15s ease-in;
     font-size: 1rem;
     color: #000000;
   }
@@ -538,7 +538,8 @@ footer .box-contact{
 
   .box-contact .contact:hover p{
     color: #000000;
-    filter: blur(0.05rem);
+    filter: blur(0.015rem);
+    font-weight: bold;
   }
 
 }
