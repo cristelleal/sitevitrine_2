@@ -87,6 +87,10 @@ a{
     transition: 0.5s ease-in-out;  
   }
 
+  .ri-close-line, .ri-menu-4-line{
+    font-size: 32px;
+  }
+
   .hero p{
     margin-top: 10%;
   }

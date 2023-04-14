@@ -1,4 +1,4 @@
-// Apparition de la nav en Desktop mode
+// Nav / Menu hamburger
 
 const navMenu  = document.getElementById('nav-menu'),
       navToggle = document.getElementById('nav-toggle'),
