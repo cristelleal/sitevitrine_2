@@ -15,9 +15,7 @@
 }
 
 
-html{
-  scroll-behavior: smooth;
-}
+html { scroll-behavior: smooth; }
 
 body{
   background-color: #ffffff;
@@ -25,13 +23,9 @@ body{
   font-family: var(--font-primary);
 }
 
-body::-webkit-scrollbar{
-  display: none;
-}
+body::-webkit-scrollbar { display: none; } 
 
-a{
-  text-decoration: none;
-}
+a { text-decoration: none; color: #55828b ;}
 
 .container{
   max-width: 1280px;
