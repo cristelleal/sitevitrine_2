@@ -1,3 +1,5 @@
+window.onload = () => {
+
 // Nav / Menu hamburger
 
 const navMenu  = document.getElementById('nav-menu'),
@@ -30,3 +32,4 @@ sr.reveal(`.experience .container-medium`, {delay:500})
 sr.reveal(`.project, .contact`, {interval: 100})
 
 
+}

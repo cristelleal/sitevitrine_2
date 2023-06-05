@@ -14,7 +14,6 @@
   margin: 0;
 }
 
-
 html { scroll-behavior: smooth; }
 
 body {
@@ -26,8 +25,8 @@ body {
 body::-webkit-scrollbar { display: none; } 
 
 ::selection { 
-  background-color: #bb377db8;
-  color: #fff;
+  background-color: #edede9;
+  color: rgb(48, 48, 48);
 }
 
 a { 
