@@ -22,7 +22,7 @@ const sr = ScrollReveal({
   origin: 'top',
   distance: '60px',
   duration: 1000,
-  delay: 400
+  delay: 50
 })
 
 sr.reveal(`.hero .container-medium`)
